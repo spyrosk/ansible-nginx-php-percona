@@ -1,3 +1,6 @@
 [submodule "roles/security"]
 	path = roles/security
 	url = git@github.com:spyrosk/ansible-role-security.git
+[submodule "roles/firewall"]
+	path = roles/firewall
+	url = git@github.com:spyrosk/ansible-role-firewall.git
