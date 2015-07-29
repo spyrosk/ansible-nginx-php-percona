@@ -7,3 +7,6 @@
 [submodule "roles/nginx"]
 	path = roles/nginx
 	url = git@github.com:spyrosk/ansible-role-nginx.git
+[submodule "roles/php"]
+	path = roles/php
+	url = git@github.com:spyrosk/ansible-role-php.git
