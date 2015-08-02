@@ -10,3 +10,6 @@
 [submodule "roles/php"]
 	path = roles/php
 	url = git@github.com:spyrosk/ansible-role-php.git
+[submodule "roles/mysql"]
+	path = roles/mysql
+	url = git@github.com:spyrosk/ansible-role-mysql.git
