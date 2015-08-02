@@ -1,0 +1,13 @@
+---
+- hosts: all
+  sudo: true
+  vars_files:
+    - vars/security.yml
+    - vars/firewall.yml
+    - vars/nginx.yml
+    - vars/php.yml
+  roles:
+    - security
+    - firewall
+    - nginx
+    - php
